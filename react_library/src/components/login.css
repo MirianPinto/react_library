@@ -1,0 +1,180 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .App {
+    text-align: center;
+    
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  /* dashboard */
+  
+  #header
+  {
+    background-color: black;
+    height: 74.2px;
+    width: 100%;
+    /* border: 1px solid rgb(202, 107, 107); */
+  }
+  #nav
+  {
+    background-color: black;
+    height: 74.2px;
+    width: 1536px;
+    /* border: 1px solid rgb(202, 107, 107); */
+  }
+  .homeContent {
+  
+    background-color: #6f6b6bd5;
+    margin-left: 470px;
+    
+    height: 500px;
+    width: 540px;
+    border: 1px solid #6f6b6bd5;
+    padding: 30px;
+  }
+  #Footer
+  {
+    background-color: black;
+    height: 74.2px;
+    width: 1536px;
+    /* border: 1px solid rgb(202, 107, 107); */
+  }
+  
+  
+  #Formulario{
+    background-color: white;
+    background-size: cover;
+    padding: 50px;
+    height: 596px;
+    width: 1536px;
+    
+    /* border: 1px solid rgb(202, 107, 107); */
+  }
+  
+  .formularioLogin {
+  
+    background-color: #060000a8;
+    margin-left: 470px;
+    
+    height: 500px;
+    width: 540px;
+    border: 1px solid #6f6b6bd5;
+    padding-top: 120px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* registro  y login*/
+  
+  #backgroundLogin{
+    background-color: white;
+    background-size: cover;
+    padding: 88px;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    
+    /*border: 1px solid rgb(202, 107, 107); */
+  }
+  
+  #backgroundRegister{
+  
+    background-image: url(../assets/fondo/Register.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
+    height: 596px;
+    width: 1536px;
+    padding: 50px;
+    /* border: 1px solid red; */
+  }
+  .formularioRegister {
+  
+    background-color: #060000a8;
+    margin-left: 470px;
+    
+    height: 500px;
+    width: 540px;
+    border: 1px solid #6f6b6bd5;
+    padding-top: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  /* body general */
+  body{
+    background-color: rgb(255, 255, 255);
+  }
+  
+  /* ProyectDash */
+  
+  #back3{
+    background-color: rgb(181, 209, 143);
+    width: 1100px;
+    height: 550px;
+    margin: 100px 200px;
+    padding: 40px;
+    border: 1px solid red;
+  }
+  
+  
+  /* Profile */
+  
+  .barras
+  {
+    background-color: black;
+    min-height: 74.2px;
+    padding-top: 10px;
+    padding-left: 20px;
+    white-space: nowrap;
+    /* border: 1px solid rgb(202, 107, 107);  */
+  }
+  
+  
+  .general
+  {
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .complete
+  {
+    display:flex;
+    /* justify-content: space-between; */
+  }
+  
+  #container{
+    min-height: 450px;
+    width: 25%;
+    margin-top: 70px ;
+    margin-left: 15%;
+    margin-bottom: 77px;
+    margin-right: 20px;
+    padding: 30px;
+    border: 1px solid #360404d5; 
+  }
+  
+  #containerboards{
+    min-height: 450px;
+    width: 45%;
+    margin: 70px 0px;
+    margin-bottom: 77px;
+    border: 1px solid #360404d5;
+  }
+  
+  #containerlist{
+    height: 688px;
+    min-width: 100%;
+    border: 1px solid #360404d5;
+  }
+  
+  
