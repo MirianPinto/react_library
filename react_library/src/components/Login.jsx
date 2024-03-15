@@ -18,7 +18,7 @@ const Login = () => {
 
       <section id="backgroundLogin">
         <div className="formularioLogin">
-          <Modal Boton={<Boton nombre={"sumit"} funcion={funcion}/>} />
+          <Modal Boton={<Boton nombre={"sumit"} funcion={funcion} Titutlo1={"Email"} placeholder1 ={"Enter Email"} Titulo2={"Password"} placeholder2 ={"Enter Password"}/>} />
         </div>
       </section>
 

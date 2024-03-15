@@ -7,22 +7,22 @@ import { useNavigate } from 'react-router-dom';
 
 function Modal(props) {
   
-  console.log("Hola",props)
+  console.log("Hola", props.Titutlo1)
  
   return (
     <>
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label style ={{color:"white"}}>Email </Form.Label>
+        <Form.Label style ={{color:"white"}}> {props.Titutlo1}  </Form.Label>
         <Form.Control 
-         placeholder="Enter Email "
+         placeholder={props.placeholder1}
          />
         </Form.Group>
       
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
-        <Form.Label style ={{color:"white"}}>Password</Form.Label>
-        <Form.Control placeholder="Password" 
+        <Form.Label style ={{color:"white"}}>{props.Titutlo2}</Form.Label>
+        <Form.Control placeholder={props.placeholder1}
         
         onChange={(e) => {
         }}
